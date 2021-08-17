@@ -14,7 +14,7 @@ def game_figures():
         else:
             break
 
-    print("\nCOLORS:" + colored("\n> Black\n", "grey") + colored("> Red\n", "red")
+    print("\nCOLORS:" + colored("> Red\n", "red")
           + colored("> Green\n", "green") + colored("> Yellow\n", "yellow") + colored("> Blue\n", "blue")
           + colored("> Magenta\n", "magenta") + colored("> Cyan\n", "cyan")
           + "> White")
@@ -35,16 +35,12 @@ def game_figures():
 
     user_2 = "O" if user_1 == "X" else "X"
 
-    if color == "black":
-        user_1 = colored(user_1, "grey")
-    elif color == "white":
+    if color == "white":
         pass
     else:
         user_1 = colored(user_1, color)
 
-    if color_2 == "black":
-        user_2 = colored(user_2, "grey")
-    elif color_2 == "white":
+    if color_2 == "white":
         pass
     else:
         user_2 = colored(user_2, color_2)
