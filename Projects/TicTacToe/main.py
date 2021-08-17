@@ -14,7 +14,7 @@ def game_figures():
         else:
             break
 
-    print("\nCOLORS:" + colored("> Red\n", "red")
+    print("\nCOLORS:" + colored("\n> Red\n", "red")
           + colored("> Green\n", "green") + colored("> Yellow\n", "yellow") + colored("> Blue\n", "blue")
           + colored("> Magenta\n", "magenta") + colored("> Cyan\n", "cyan")
           + "> White")
