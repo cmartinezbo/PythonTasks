@@ -160,7 +160,7 @@ def game():
         if positions[0]:
             match_dev(players[0], board)
             count += 1
-            if count == 5 and winnings() is True:
+            if winnings() is True:
                 break
             if count == 9 and winnings() is False:
                 print("There's a tie!")
@@ -170,7 +170,7 @@ def game():
         else:
             match_dev(players[1], board)
             count += 1
-            if count == 5 and winnings() is True:
+            if winnings() is True:
                 break
             if count == 9 and winnings() is False:
                 print("There's a tie!")
